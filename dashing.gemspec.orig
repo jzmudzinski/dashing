@@ -20,7 +20,12 @@ Gem::Specification.new do |s|
   s.add_dependency('coffee-script', '>=1.6.2')
   s.add_dependency('sinatra')
   s.add_dependency('sinatra-contrib')
+<<<<<<< HEAD
+  s.add_dependency('thin')
   s.add_dependency('rufus-scheduler', '~> 2.0')
+=======
+  s.add_dependency('rufus-scheduler')
+>>>>>>> gid79/jruby_prototype
   s.add_dependency('thor')
   s.add_dependency('sprockets')
   s.add_dependency('rack')
